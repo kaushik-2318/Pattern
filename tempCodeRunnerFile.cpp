@@ -2,15 +2,17 @@
 using namespace std;
 int main()
 {
-    int n = 4;
+    int n = 3;
     int row = 1;
     while (row <= n)
     {
+        char ch = 'A';
         int col = 1;
         while (col <= n)
         {
-            cout << n - col + 1<<" ";
+            cout << ch << " ";
             col++;
+            ch++;
         }
         cout << endl;
         row++;
