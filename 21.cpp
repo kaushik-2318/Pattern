@@ -2,14 +2,16 @@
 using namespace std;
 int main()
 {
-    int n = 4;
+    int n = 3;
     int row = 1;
+    int count = n*n;
     while (row <= n)
     {
         int col = 1;
         while (col <= n)
         {
-            cout << n-col+1<<" ";
+            cout << count << " ";
+            count--;
             col++;
         }
         cout << endl;
