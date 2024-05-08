@@ -85,29 +85,40 @@ A
 B B
 C C C
 ```
-- Pattern 
+- Pattern 14
 ```
-
+A 
+B C
+D E F
+G H I J
 ```
-- Pattern 
+- Pattern 15
 ```
-
+A 
+B C
+C D E
+D E F G
 ```
-- Pattern 
+- Pattern 16
 ```
-
+D 
+C D
+B C D
+A B C D
 ```
-- Pattern 
+- Pattern 17
 ```
-
+   *
+  **
+ ***
+****
 ```
-- Pattern 
+- Pattern 18
 ```
-
-```
-- Pattern 
-```
-
+      1 
+    1 2 1
+  1 2 3 2 1
+1 2 3 4 3 2 1
 ```
 - Pattern 19
 ```
@@ -115,4 +126,21 @@ C C C
 2 2
 3 3 3
 4 4 4 4
+```
+- Pattern 20
+```
+   * 
+  * *
+ * * *
+* * * *
+```
+
+# Unique Patterns
+- Pattern 35
+```
+♦ 
+♥ ♥
+☻ ☻ ☻
+☺ ☺ ☺ ☺
+
 ```
