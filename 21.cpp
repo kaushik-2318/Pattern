@@ -4,7 +4,7 @@ int main()
 {
     int n = 3;
     int row = 1;
-    int count = n*n;
+    int count = n * n;
     while (row <= n)
     {
         int col = 1;

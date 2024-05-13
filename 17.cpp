@@ -6,13 +6,13 @@ int main()
     int row = 1;
     while (row <= n)
     {
-        int space = n-row;
+        int space = n - row;
         while (space)
         {
-            cout<<" ";
+            cout << " ";
             space--;
         }
-        
+
         int col = 1;
         while (col <= row)
         {

@@ -6,17 +6,16 @@ int main()
     int row = 1;
     while (row <= n)
     {
-        int space = n-row;
-        while (space)
+        int space = 0;
+        while (space < n - row)
         {
-            cout<<" ";
-            space--;
+            cout << " ";
+            space++;
         }
-        
         int col = 1;
         while (col <= row)
         {
-            cout << "*" << " ";
+            cout << row;
             col++;
         }
         cout << endl;

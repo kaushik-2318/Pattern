@@ -9,23 +9,15 @@ int main()
         int space = n - row;
         while (space)
         {
-            cout << "  ";
+            cout << " ";
             space--;
         }
 
-        int count = 1;
         int col = 1;
         while (col <= row)
         {
-            cout << count << " ";
+            cout << "*" << " ";
             col++;
-            count++;
-        }
-        int start = row - 1;
-        while (start >= 1)
-        {
-            cout << start << " ";
-            start--;
         }
         cout << endl;
         row++;

@@ -9,7 +9,7 @@ int main()
         int col = 1;
         while (col <= n)
         {
-            cout << n - col + 1<<" ";
+            cout << n - col + 1 << " ";
             col++;
         }
         cout << endl;

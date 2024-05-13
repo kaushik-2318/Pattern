@@ -9,8 +9,8 @@ int main()
         int col = 1;
         while (col <= n)
         {
-            char ch = 'A' + row + col -2;
-            cout <<ch<< " ";
+            char ch = 'A' + row + col - 2;
+            cout << ch << " ";
             col++;
         }
         cout << endl;
